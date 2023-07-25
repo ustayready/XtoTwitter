@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "X to Twitter Icon Changer",
+  "version": "1.0",
+  "description": "Replace Twitter icon URLs back to normal (Follow me on https://twitter.com/ustayready)",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "manifest_version": 2,
+  "web_accessible_resources": ["twitter.2.ico"],
+    "icons": {
+    "16": "icon.png",   // 16x16 pixel icon
+    "48": "icon.png",   // 48x48 pixel icon
+    "128": "icon.png"   // 128x128 pixel icon
+  }
+}
